@@ -41,5 +41,5 @@ document.addEventListener('DOMContentLoaded', function() {
         hello.style.display = 'block';
         document.title = 'hello.';
         console.log("Hi, I'm Rayyan!")
-    }, 6000)
+    }, 6500)
 })
