@@ -1,0 +1,73 @@
+@import url('loader.css');
+
+:root {
+    --primary: white;
+    --primary-text: black;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--primary);
+    color: var(--primary-text);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/************    LOADER    ************/
+
+.loader {
+    width: 150vw;
+    height: 150vh;
+    position: fixed;
+    top: -25vh;
+    left: -25vw;
+    z-index: 10;
+    background-color: var(--primary);
+}
+.loader p {
+    font-size: 180px;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    animation: loader-span 5s linear;
+}
+
+@media only screen and (max-width: 500px) { 
+    .loader p {
+        font-size: 144px;
+    }
+}
+
+
+@keyframes loader-span {
+    0% {margin-top: 0;}
+    100% {margin-top: -375vh;}
+}
+
+
+
+/**********    SECOND FLASH     ************/
+
+.name{
+    position: absolute;
+    overflow-wrap: break-word;
+}
+
+
+/************      GREETING       ****************/
+
+.hello {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+}
+.hello span {
+    display: none;
+}
