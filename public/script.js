@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
         loader.style.display = 'none';
     }, 2500)
 
-    // create 9 name elements
-    for (i = 0; i <= 8; i++) {
+    // create 10 name elements
+    for (i = 0; i <= 9; i++) {
         let nameElement = document.createElement('SPAN');
         let name = document.createTextNode('rayyantariq');
 
