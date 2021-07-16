@@ -40,5 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
         hello = document.querySelector('.hello span');
         hello.style.display = 'block';
         document.title = 'hello.';
+        console.log("Hi, I'm Rayyan!")
     }, 5500)
 })
