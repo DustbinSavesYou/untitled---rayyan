@@ -37,9 +37,15 @@ document.addEventListener('DOMContentLoaded', function() {
             name.remove();  //destroys the name element
         }) // removed name elements
 
+        helloParent = document.querySelector('.hello');
         hello = document.querySelector('.hello span');
         hello.style.display = 'block';
         document.title = 'hello.';
         console.log("Hi, I'm Rayyan!")
+
+        setTimeout(() => {
+            helloParent.classList.remove('glitch');
+            helloParent.classList.remove('gl-6');
+        }, 3000)
     }, 6500)
 })
