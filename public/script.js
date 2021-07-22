@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         let loader = document.querySelector('.loader');
         loader.style.display = 'none';
-    }, 2500)
+    }, 2500) //2500
 
     // create 10 name elements
     for (i = 0; i <= 9; i++) {
@@ -44,8 +44,9 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("Hi, I'm Rayyan!")
 
         setTimeout(() => {
+            // hello.style.fontWeight = '700';
             helloParent.classList.remove('glitch');
             helloParent.classList.remove('gl-6');
         }, 3000)
-    }, 6500)
+    }, 6500) // 6500
 })

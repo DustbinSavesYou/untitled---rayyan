@@ -69,3 +69,13 @@ body {
 .hello span {
     display: none;
 }
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: black;
+        --primary-text: white;
+        font-family: 'Merriweather', serif;
+    }    
+}
